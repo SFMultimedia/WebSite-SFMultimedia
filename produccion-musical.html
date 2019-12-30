@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Audio</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="estilos.css">
+
+    <style>
+        .card {
+            width: 100% !important;
+            height: 22rem !important;
+            overflow-y: auto;
+        }
+
+        .card-2 {
+            /* width: 22.5rem !important; */
+            /* height: 17rem !important;  */
+            height: 100%;
+            width: 100% !important;
+            overflow-y: auto;
+        }
+
+        .container-reproductor2::-webkit-scrollbar {
+            width: .543rem !important;
+            background: white;
+        }
+
+        .container-reproductor2::-webkit-scrollbar-thumb {
+            background: #e7e7e7 !important;
+            border-radius: 1vh !important;
+        }
+
+        .container-reproductor2::-webkit-scrollbar-thumb:hover {
+            background: lightgray !important;
+        }
+
+        .audio-reproductor {
+            max-height: 3.2rem !important;
+            width: 100%;
+            max-width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="container-fluido" style="width: 100% !important;">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+            <a class="navbar-brand" href="">
+                <a href="index.html">
+                    <img class="img-brand"
+                        src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/SamuFreshmultimedia.png"
+                        alt="no se pudo">
+                </a>
+                <!-- Navbar -->
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <!-- <a class="nav-item nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a> -->
+                    <a class="nav-item nav-link" href="disenio-personajes.html">Diseño de Personajes</a>
+                    <a class="nav-item nav-link" href="fotografia-y-video.html">Fotografía y Video</a>
+                    <a class="nav-item nav-link" href="#">Producción Musical</a>
+                </div>
+            </div>
+        </nav> <br> <br>
+    </div> <!-- cierre del container de la navbar-->
+
+
+
+
+
+
+    <br> <br>
+
+    <div class="container">
+
+        <div class="row text-center">
+            <div class="col-md-4 offset-md-4">
+                <h1 class="display-4">Mi Música</h1>
+            </div>
+        </div> <br>
+
+        <div class="row">
+
+            <div class="col-md-10 offset-md-1"> 
+
+                <div class="card container-reproductor">
+
+                    <div class="card-header bg-primary text-white">
+                        PlayList de Instrumentales en Venta
+                        <div class="spinner-grow text-warning spinner-grow-sm" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                        <div class="spinner-grow text-light spinner-grow-sm" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                        <div class="spinner-grow text-success spinner-grow-sm" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                    </div>
+
+                    <div class="card-2 container-reproductor2">
+                        <ul class="list-group list-group-flush">
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <!-- 
+                    <div class="card-footer text-muted">
+                        2 days ago
+                    </div>
+                    -->
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <br> <br>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-10 offset-md-1">
+
+                <div class="card container-reproductor">
+
+                    <div class="card-header bg-success text-white">
+                        PlayList de Canciones Terminadas
+                        <div class="spinner-grow text-warning spinner-grow-sm" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                        <div class="spinner-grow text-light spinner-grow-sm" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                        <div class="spinner-grow text-success spinner-grow-sm" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                    </div>
+
+                    <div class="card-2 container-reproductor2">
+                        <ul class="list-group list-group-flush">
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <!-- 
+                    <div class="card-footer text-muted">
+                        2 days ago
+                    </div>
+                    -->
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- REPRODUCTORES EN DOS 2 COLUMNAS DE LA MISMA FILA -->
+    <br> <br>
+
+    <div class="container">
+
+        <div class="row text-center">
+            <div class="col-md-4 offset-md-4">
+                <h1 class="display-4">Mi Música</h1>
+            </div>
+        </div> <br>
+
+        <div class="row">
+
+            <div class="col-md-6 offset-md-0">
+
+                <div class="card container-reproductor">
+
+                    <div class="card-header bg-primary text-white">
+                        PlayList de Instrumentales en Venta
+                        <div class="spinner-grow text-warning spinner-grow-sm" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                        <div class="spinner-grow text-light spinner-grow-sm" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                        <div class="spinner-grow text-success spinner-grow-sm" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                    </div>
+
+                    <div class="card-2 container-reproductor2">
+                        <ul class="list-group list-group-flush">
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <!-- 
+                    <div class="card-footer text-muted">
+                        2 days ago
+                    </div>
+                    -->
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <!-- 2da columna de 6  -->
+            <div class="col-md-6 offset-md-0">
+
+                <div class="card container-reproductor">
+
+                    <div class="card-header bg-success text-white">
+                        PlayList de Instrumentales en Venta
+                        <div class="spinner-grow text-warning spinner-grow-sm" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                        <div class="spinner-grow text-light spinner-grow-sm" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                        <div class="spinner-grow text-success spinner-grow-sm" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                    </div>
+
+                    <div class="card-2 container-reproductor2">
+                        <ul class="list-group list-group-flush">
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                            <li class="list-group-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 align-self-center">
+                                        <p>Luchando Ando</p>
+                                    </div>
+
+                                    <div class="col-md-8">
+                                        <audio class="audio-reproductor"
+                                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/Musica/Music1.mp3"
+                                            preload="none" controls loop>
+                                            <!-- loop = se repite cuando finaliza la cancion -->
+                                            <!-- autoplay = Inicia la canción automaticamente cuando abres la página -->
+                                        </audio>
+                                    </div>
+
+                                </div>
+
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <!-- 
+                    <div class="card-footer text-muted">
+                        2 days ago
+                    </div>
+                    -->
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br> <br> <br>
+    <!-- footer -->
+    <div class="container-fluid site-footer" style="width: 100% !important;">
+
+        <br>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4">
+
+                    <h4>Contactos</h4>
+
+                    <i class="fab fa-facebook-square iconos-footer"></i>
+                    <i class="fab fa-instagram iconos-footer"></i>
+                    <i class="fab fa-youtube iconos-footer"></i>
+                    <i class="fab fa-whatsapp-square iconos-footer"></i>
+                    <i class="fas fa-envelope iconos-footer"></i> <br> <br>
+
+                </div>
+
+                <!-- <div class="col-md-4 text-center"> <br> -->
+                <div class="col-md-4"> <br>
+                    <a href="index.html">
+                        <img class="img-brand logoFooter"
+                            src="https://raw.githubusercontent.com/Arthur6717/WebSiteSamuelWithBootstrap/master/SamuFreshmultimedia.png"
+                            alt="Icono logo">
+                    </a> <br> <br> <br>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <p class="text-justify">
+                        <br>
+                        <i class="fab fa-facebook-square iconos-footer"></i>
+                        Página por: <strong> Arthur Ibarra </strong>
+                    </p>
+                </div> <br> <br>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Script de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/81e86af629.js"></script> <!-- Script de los icono -->
+
+</body>
+
+</html>
