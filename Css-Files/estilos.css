@@ -1,0 +1,258 @@
+/* HEEEEAAADEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEER */ 
+.jumbotron-header {
+    /*
+color: white;
+background: #000000 url("aguila-fondo.jpg"); 
+background-size: cover; 
+background-position: center;
+overflow: hidden; */
+
+    color: white;
+    background: url("https://geekzilla.tech/home/wp-content/uploads/2019/07/cropped-Cintiq-22_1-1-1920x1079.jpg"); 
+    /*background: url(""); */
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 65vh; */
+    height: 94vh;     
+    /*background-attachment: fixed;*/ 
+}
+
+@media (max-width: 580px) {
+    .jumbotron-header {
+        height: 91.4vh;
+    }
+}
+
+    .jumbotron-header::after {
+    content: '';
+    background: rgba(0, 0, 0, .55); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.contenido-header {
+    color: white;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.contenido-titulo {
+    font-size: 5.4rem;
+}
+
+.contenido-parrafos {
+    font-size: 2rem !important;
+}
+
+@media (max-width: 768px) {
+    .contenido-titulo {
+        font-size: 5rem !important;
+    }   
+
+    .contenido-parrafos {
+        font-size: 1.8rem !important;
+    }
+
+}
+
+@media (max-width: 580px) { 
+    .contenido-titulo {
+        font-size: 4.25rem !important;
+    }
+
+    .contenido-parrafos {
+        font-size: 1.42rem !important;
+    }
+
+}
+
+@media (max-width: 530px) { 
+    .contenido-titulo {
+        font-size: 3.6rem !important;
+    }
+
+    .contenido-parrafos {
+        font-size: 1.31rem !important;
+    }
+
+}
+
+
+@media (max-width: 414px) { 
+    .contenido-titulo {
+        font-size: 3.2rem !important; 
+    }
+
+    .contenido-parrafos {
+        font-size: 1.18rem !important;
+    } 
+
+}
+
+
+.img-brand {
+    max-width: 12rem !important; 
+}
+
+.nav-item {
+    color: white !important;
+} 
+
+.nav-item:hover { 
+    color: gold !important;
+    transition: .3s;
+}
+
+
+
+
+/*ESTILOS PARA EL CAROUSEEEEEEEEEL SECCION HOME */
+.displayEnLinea {
+    display: inline !important;
+}
+
+.img-carousel {
+    height: 22rem !important; 
+    max-height: 22rem !important; 
+} 
+    
+.ima-rounded {
+    border-radius: .7vh !important;   
+} 
+
+
+
+
+
+
+/* SECCION DISEÑO DE PERSONAJES */ 
+.ima-analogo-digital {
+    height: 28rem;
+    width: 100%; 
+}
+
+.imagenSamuelUltima {
+    height: 34rem;
+    width: 100%;
+}
+
+.videoYoutube-iFrame {
+    width: 100% !important;
+    height: 95% !important; 
+    min-height: 18rem;
+}
+
+
+
+
+
+/* SECCION FOOOOOTOGRAFIA Y VIDEOOOOOOOOOOOOOOOOOOOOOOOO */
+.carouselFotosPrincipales {
+    width: 100% !important;
+    height: 55vh !important;  
+}
+
+
+
+
+/* SECCION CURRICULUMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM */
+.imagenSamuel {
+    max-width: 100%;
+    border-radius: 50vh;
+    height: 33rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOTER */
+.site-footer {
+    background: #0275d8; 
+    /*background: #040B22; */
+    color: white; 
+}
+
+.iconos-footer {
+    font-size: 1.75rem; 
+    padding-right: 1rem;
+    text-align: justify;
+}
+
+.iconos-footer:hover {
+    color: gold; 
+    transition: .3s;
+}
+
+.logoFooter {
+    height: 3rem !important;
+}
+
+/* .texto-iconos {
+    display: inline !important;
+    text-align: justify !important;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
