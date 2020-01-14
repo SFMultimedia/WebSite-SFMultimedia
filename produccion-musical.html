@@ -15,7 +15,7 @@
     <style>
         .card {
             width: 100% !important;
-            height: 20rem !important;
+            height: 30rem !important;
             overflow-y: auto;
         }
 
@@ -94,27 +94,37 @@
 
     <div class="container">
 
-        <div class="row text-center">
-            <div class="col-md-4 offset-md-4">
-                <h1 class="display-4">Música</h1>
-            </div>
-        </div> <br>
-
         <div class="row">
 
-            <div class="col-md-8 offset-md-0">
+            <div class="col-md-5">
 
-                <div class="card container-reproductor">
+                <h1>Mi Musica</h1>
 
-                    <div class="card-header bg-success text-white">
+                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum autem aut
+                    provident. Doloremque, minima. Id ipsum corrupti numquam dignissimos quod labore enim! Consequatur
+                    dolor aliquam in sapiente, quam sit cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Consectetur dolor in, dolore veniam asperiores eum fugiat nulla neque distinctio incidunt esse
+                    magni quas nemo delectus quod quasi qui alias sapiente.F</p>
+
+                <img src="https://www.imer.mx/tropicalisima/wp-content/uploads/sites/19/Notas-Musicales19.jpg"
+                    alt="Imagen Música" class="img-fluid img-thumbnail rounded">
+                <br> <br> <br>
+            </div>
+
+            
+            <div class="col-md-6 offset-md-1">
+
+                <div class="card container-reproductor border-primary">
+
+                    <div class="card-header bg-primary text-white border-primary">
                         PlayList
                         <div class="spinner-grow text-warning spinner-grow-sm" role="status">
                             <span class="sr-only">Loading...</span>
                         </div>
-                        <div class="spinner-grow text-light spinner-grow-sm" role="status">
+                        <div class="spinner-grow text-dark spinner-grow-sm" role="status">
                             <span class="sr-only">Loading...</span>
                         </div>
-                        <div class="spinner-grow text-danger spinner-grow-sm" role="status">
+                        <div class="spinner-grow text-success spinner-grow-sm" role="status">
                             <span class="sr-only">Loading...</span>
                         </div>
                     </div>
@@ -382,7 +392,12 @@
                     </div>
 
                     <div class="card-footer text-muted">
-                        2 days ago
+                        <!-- 2 days ago -->
+                        <div class="text-right">
+                            <button type="button" class="btn btn-outline-primary btn-sm">
+                                Ver más
+                            </button>
+                        </div>
                     </div>
 
                 </div>
