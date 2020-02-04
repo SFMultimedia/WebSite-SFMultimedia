@@ -9,6 +9,9 @@ body::-webkit-scrollbar-thumb {
 }
 */
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
 
 
 /* HEEEEAAADEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEER */  
@@ -55,6 +58,7 @@ overflow: hidden; */
     position: relative;
     z-index: 1;
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .contenido-titulo {
@@ -152,7 +156,9 @@ overflow: hidden; */
     transition: .3s;
 }
 
-
+.bg-navbar {
+    background: #800049;
+}
 
 
 /*ESTILOS PARA EL CAROUSEEEEEEEEEL SECCION HOME */
@@ -222,6 +228,22 @@ overflow: hidden; */
 .ima-analogo-digital {
     height: 28rem;
     width: 100%; 
+}
+
+.ima-analogo-digital:hover {
+    -webkit-transform: scale(1.06);
+    transition: .3s;
+
+}
+
+.imagenSamuelUltima { 
+    border-radius: .5rem !important;
+}
+
+.imagenSamuelUltima:hover {
+    -webkit-transform: scale(1.03);
+    transition: .3s;
+
 }
 
 @media (max-width: 1088px) {
@@ -320,6 +342,12 @@ overflow: hidden; */
     min-height: 18rem;
 }
 
+.videoYoutube-iFrame:hover {
+    -webkit-transform: scale(1.03);
+    transition: .3s;
+
+}
+
 @media (max-width: 768px) {
     .videoYoutube-iFrame {
         width: 100% !important;
@@ -400,9 +428,14 @@ overflow: hidden; */
 
 /* FOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOTER */
 .site-footer {
-    background: #0275d8; 
+    /* background: #0275d8; */
     /*background: #040B22; */
+    background: #800049; 
     color: white; 
+}
+
+.iconos-enlaces-footer {
+    color: white !important;    
 }
 
 .iconos-footer {
