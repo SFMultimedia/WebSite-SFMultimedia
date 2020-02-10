@@ -468,6 +468,91 @@ overflow: hidden; */
 
 
 
+/* FACEBOOK COMPONENTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT */
+.facebook-component-container {
+    height: 31rem !important;
+    width: 100% !important;
+}
+
+.facebook-component {
+    height: 100% !important;
+    width: 100% !important;
+    overflow-x: hidden;
+    border: none;
+}
+
+@media (max-width: 991px) {
+    .facebook-component {
+        /* background-image: url(https://raw.githubusercontent.com/SFMultimedia/WebSite-SFMultimedia/master/WebSite-Files/Images/Deslizador%20de%20pag%20principal/3.jpg); */
+        background-image: url(https://www.digitaldot.es/images/noticias/posicionamiento-seo-redes-sociales.png);
+        /* background-position: center center; */
+        background-position: right;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: .8vh;
+    }
+    .facebook-component-container {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 370px) {
+    .facebook-component {
+        background-image: url();
+    }
+    .facebook-component-container {
+        margin-bottom: 2rem;
+    }
+}
+
+.img-redes_sociales {
+    /*height: 70% !important; */
+    height: 22.75rem !important;
+    width: 100% !important;
+    border-radius: 1vh;
+}
+
+@media (max-width: 1199px) {
+    .img-redes_sociales {
+        height: 22.75rem !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .img-redes_sociales {
+        height: 14rem !important;
+    }
+}
+
+@media (max-width: 482px) {
+    .img-redes_sociales {
+        height: 12rem !important;
+    }
+}
+
+@media (max-width: 392px) {
+    .img-redes_sociales {
+        height: 10rem !important;
+    }
+}
+
+
+@media (max-width: 332px) {
+    .img-redes_sociales {
+        height: 8.5rem !important;
+    }
+}
+
+
+
+
+
+
+
+
 
 
 /* FOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOTER */
@@ -529,38 +614,6 @@ overflow: hidden; */
     display: inline !important;
     text-align: justify !important;
 } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
